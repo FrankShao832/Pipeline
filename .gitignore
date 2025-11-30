@@ -1,0 +1,43 @@
+# =============================================
+# Pipeline Launcher - Git Ignore
+# =============================================
+
+# =============================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+__pycache__/
+
+
+
+build/
+
+
+# ========== VFX/DCC ==========
+*.ma
+*.mb
+*.hip
+*.hipnc
+*.nk
+cache/
+tmp/
+renders/
+
+
+# ========== sys ==========
+.DS_Store
+.env
+.env.local
+secrets.yaml
+config/local.yaml
+
+
+# ========== log ==========
+*.log
+logs/
+output/
